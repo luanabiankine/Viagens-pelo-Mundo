@@ -1,0 +1,61 @@
+<!-- destino.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Destinos | Viagens pelo Mundo</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .galeria {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .galeria img {
+      width: 100%;
+      max-width: 32%;
+      border-radius: 10px;
+      object-fit: cover;
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .galeria img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Viagens pelo Mundo</h1>
+    <p>Destinos selecionados para sua próxima aventura</p>
+  </header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="destino.html">Destinos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <main>
+    <h2>Nossos Destinos</h2>
+    <ul>
+      <li><strong>Paris, França:</strong> Paris, a cidade da luz, encanta com sua arte, romance e charme inesquecível em cada esquina Romance, arte e gastronomia.</li>
+      <li><strong>Maldivas:</strong> Maldivas, um paraíso tropical de águas cristalinas e praias de areia branca que renovam a alma Paraísos tropicais e resorts de luxo.</li>
+      <li><strong>Kyoto, Japão:</strong> Kyoto, berço da tradição japonesa, encanta com seus templos milenares e a delicadeza das flores de sakura. Tradição, templos e sakura.</li>
+    </ul>
+
+    <div class="galeria">
+       <img src="paris.jpg" style="width: 100%; border-radius: 10px; margin-top: 20px;">
+    </section>
+
+      <img src="maldivas.jpg" style="width: 100%; border-radius: 10px; margin-top: 20px;">
+    </section>
+
+       <img src="kyoto.jpg" style="width: 100%; border-radius: 10px; margin-top: 20px;">
+    </section>
+  <footer>
+    <p>&copy; 2025 Viagens pelo Mundo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
