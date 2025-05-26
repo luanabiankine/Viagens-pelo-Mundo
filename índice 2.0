@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bem-vindo | Viagens pelo Mundo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Viagens pelo Mundo</h1>
+    <p>Explore o mundo com sofisticação</p>
+  </header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="destino.html">Destinos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <main>
+    <h2>Bem-vindo à Viagens pelo Mundo</h2>
+    <p>Descubra experiências únicas, roteiros personalizados e os destinos mais deslumbrantes com o toque de elegância que você merece.</p>
+
+    <!-- Breve descrição do site -->
+    <section style="margin-top: 20px;">
+      <h3>Sobre o site</h3>
+      <p>
+        O <strong>Viagens pelo Mundo</strong> é o seu guia confiável para explorar os lugares mais fascinantes do planeta. 
+        Apresentamos sugestões de roteiros, dicas exclusivas e os melhores destinos para quem busca viajar com conforto, cultura e aventura. 
+        De cidades históricas a paraísos exóticos, aqui você encontra inspiração para sua próxima viagem inesquecível.
+      </p>
+    </section>
+  <img src="praia.jpg" style="width: 100%; border-radius: 10px; margin-top: 20px;">
+    </section>
+  <footer>
+    <p>&copy; 2025 Viagens pelo Mundo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
