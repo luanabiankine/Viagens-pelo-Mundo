@@ -1,0 +1,33 @@
+<!-- contato.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contato | Viagens pelo Mundo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Viagens pelo Mundo</h1>
+    <p>Fale conosco</p>
+  </header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="destino.html">Destinos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <main>
+    <h2>Entre em contato</h2>
+    <form onsubmit="event.preventDefault(); enviarFormulario();">
+      <p><label>Nome:<br><input type="text" required></label></p>
+      <p><label>Email:<br><input type="email" required></label></p>
+      <p><label>Mensagem:<br><textarea rows="5" required></textarea></label></p>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Viagens pelo Mundo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
